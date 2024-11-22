@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+  }
+  
+  .navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .navbar .logo img {
+    width: 150px;
+  }
+  
+  .navbar nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar nav ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar nav ul li .signup-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .hero {
+    background-color: #333;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero .hero-text h1 {
+    font-size: 50px;
+    color: #fff;
+  }
+  
+  .hero .hero-text p {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  .hero .cta-btn {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  
+
+  .courses {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+    text-align: center;
+  }
+  
+  .courses h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #fff;
+  }
+  
+  .course-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .course-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+  }
+  
+  .course-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .course-card p {
+    color: #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .course-link {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #fff;
+  }
+  
